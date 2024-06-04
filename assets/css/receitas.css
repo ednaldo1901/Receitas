@@ -1,0 +1,81 @@
+
+
+.navbar-brand img{
+    width: 50px;
+}
+
+.btn{
+  --bs-btn-bg: #198754;
+  --bs-btn-border-color: #146c43; 
+  --bs-btn-hover-bg: #146c43;
+  --bs-btn-hover-border-color: #146c43;
+  --bs-btn-active-bg: #0e7043;
+  --bs-btn-active-border-color: #146c43; 
+}
+.carousel-item{
+  height: 420px;
+}
+.carousel-item img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.carousel-item::before{
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(transparent,rgb(31,31,31));
+  position: absolute;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-top: 4.7rem;
+    height: calc(100vh - 100px);
+    width: 100%;
+    overflow-y: auto;
+}
+
+.content-receitas{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+}
+
+.content-item-1{
+  width: 350px;
+  height: 450px;
+  flex-wrap: wrap;
+  background-color: #198754;
+  margin-bottom: 0;
+}
+
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card ul li{
+  list-style: disc;
+  
+}
+
+footer{
+  width: 100%;
+  height: 25px;
+  background-color: black;
+  text-align: center;
+  color: beige;
+ 
+}
